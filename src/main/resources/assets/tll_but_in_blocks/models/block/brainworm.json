@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tll_but_in_blocks:blocks/too_tree_inside",
+    "up": "tll_but_in_blocks:blocks/too_tree_inside",
+    "north": "tll_but_in_blocks:blocks/too_tree",
+    "east": "tll_but_in_blocks:blocks/too_tree",
+    "south": "tll_but_in_blocks:blocks/too_tree",
+    "west": "tll_but_in_blocks:blocks/too_tree",
+    "particle": "tll_but_in_blocks:blocks/too_tree_inside"
+  }
+}

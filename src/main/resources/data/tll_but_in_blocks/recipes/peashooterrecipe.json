@@ -1,0 +1,24 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "tll_but_in_blocks:whitebloodcellitem"
+    },
+    "4": {
+      "item": "minecraft:iron_nugget"
+    },
+    "8": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "tll_but_in_blocks:shootytest",
+    "count": 1
+  }
+}

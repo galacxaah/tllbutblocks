@@ -1,0 +1,42 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "1": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "2": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "3": {
+      "item": "tll_but_in_blocks:organicessence"
+    },
+    "4": {
+      "item": "tll_but_in_blocks:organicessence"
+    },
+    "5": {
+      "item": "tll_but_in_blocks:organicessence"
+    },
+    "6": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "7": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "8": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "tll_but_in_blocks:tooframeblock",
+    "count": 1
+  }
+}

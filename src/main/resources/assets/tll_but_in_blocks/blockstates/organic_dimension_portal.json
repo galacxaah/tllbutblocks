@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "tll_but_in_blocks:block/organic_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "tll_but_in_blocks:block/organic_dimension_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "tll_but_in_blocks:custom/screw",
+  "textures": {
+    "all": "tll_but_in_blocks:blocks/screw",
+    "particle": "tll_but_in_blocks:blocks/screw",
+    "2": "tll_but_in_blocks:blocks/screw"
+  }
+}

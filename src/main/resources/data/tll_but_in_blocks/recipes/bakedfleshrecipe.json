@@ -1,0 +1,12 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "tll_but_in_blocks:flesh_block"
+  },
+  "result": {
+    "item": "tll_but_in_blocks:bakedflesh"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "_fv": 13,
+  "_type": "biome",
+  "definition": {
+    "name": "Brainylands",
+    "groundBlock": {
+      "value": "CUSTOM:Brainblock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Brainblock"
+    },
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 11,
+    "spawnVines": true,
+    "treeVines": {
+      "value": "CUSTOM:Brainblock"
+    },
+    "treeStem": {
+      "value": "CUSTOM:Brainblock"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Brainblock"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:Brainblock"
+    },
+    "airColor": {
+      "value": -13261,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -10040320,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 5,
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 1.0,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "Ores"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Handmond"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Maxillaphone"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:BloodCell"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Whitebloodcell"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

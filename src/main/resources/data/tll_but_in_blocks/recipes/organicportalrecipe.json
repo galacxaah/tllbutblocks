@@ -1,0 +1,16 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tll_but_in_blocks:organicessence"
+    },
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "result": {
+    "item": "tll_but_in_blocks:organic_dimension",
+    "count": 1
+  }
+}

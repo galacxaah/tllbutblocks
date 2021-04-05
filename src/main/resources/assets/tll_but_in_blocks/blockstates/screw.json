@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tll_but_in_blocks:block/screw"
+    },
+    "facing=east": {
+      "model": "tll_but_in_blocks:block/screw",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tll_but_in_blocks:block/screw",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tll_but_in_blocks:block/screw",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "tll_but_in_blocks:block/screw",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "tll_but_in_blocks:block/screw",
+      "x": 90
+    }
+  }
+}

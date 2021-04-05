@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tll_but_in_blocks:items/eats3"
+  }
+}

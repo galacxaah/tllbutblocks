@@ -1,0 +1,22 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "tll_but_in_blocks:bloodclot"
+    },
+    "1": {
+      "item": "tll_but_in_blocks:bloodclot"
+    },
+    "2": {
+      "item": "tll_but_in_blocks:bloodclot"
+    }
+  },
+  "result": {
+    "item": "tll_but_in_blocks:hematogen",
+    "count": 2
+  }
+}

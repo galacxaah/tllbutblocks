@@ -1,0 +1,1359 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Handmond",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handmond"
+    },
+    {
+      "name": "HandmondEntityIsHurt",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handmond_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Organicessence",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "organicessence"
+    },
+    {
+      "name": "Maxillaphone",
+      "type": "mob",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "maxillaphone"
+    },
+    {
+      "name": "Screw",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "screw"
+    },
+    {
+      "name": "MaxillaphoneEntityDies",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "maxillaphone_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blood",
+      "type": "fluid",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood"
+    },
+    {
+      "name": "TLL",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tll"
+    },
+    {
+      "name": "HandmondEntityDies",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handmond_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FleshBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_block"
+    },
+    {
+      "name": "Tooframeblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tooframeblock"
+    },
+    {
+      "name": "FleshBlock2",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_block_2"
+    },
+    {
+      "name": "FleshIslands",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_islands"
+    },
+    {
+      "name": "OrganicDimension",
+      "type": "dimension",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "organic_dimension"
+    },
+    {
+      "name": "Ruinedorganicportal",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruinedorganicportal"
+    },
+    {
+      "name": "Lippiecerecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lippiecerecipe"
+    },
+    {
+      "name": "Organicportalrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "organicportalrecipe"
+    },
+    {
+      "name": "Brainworm",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brainworm"
+    },
+    {
+      "name": "Brainblock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brainblock"
+    },
+    {
+      "name": "Brainvine",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brainvine"
+    },
+    {
+      "name": "Bakedflesh",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakedflesh"
+    },
+    {
+      "name": "Bakedbrains",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakedbrains"
+    },
+    {
+      "name": "Bakedbrainworm",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakedbrainworm"
+    },
+    {
+      "name": "Bakedfleshrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakedfleshrecipe"
+    },
+    {
+      "name": "Bakedbrainrecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakedbrainrecipe"
+    },
+    {
+      "name": "RawbrainwormFoodEaten",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawbrainworm_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rawbrainworm",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawbrainworm"
+    },
+    {
+      "name": "Brainwormrecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brainwormrecipe"
+    },
+    {
+      "name": "Bakedbrainwormrecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakedbrainwormrecipe"
+    },
+    {
+      "name": "Fleshfuel",
+      "type": "fuel",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fleshfuel"
+    },
+    {
+      "name": "Brainfuel",
+      "type": "fuel",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brainfuel"
+    },
+    {
+      "name": "Wormpiecefuel",
+      "type": "fuel",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wormpiecefuel"
+    },
+    {
+      "name": "Wormfuel",
+      "type": "fuel",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wormfuel"
+    },
+    {
+      "name": "Hematogen",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hematogen"
+    },
+    {
+      "name": "Hematogenrecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hematogenrecipe"
+    },
+    {
+      "name": "Bloodclot",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodclot"
+    },
+    {
+      "name": "Bloodyfleshblock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodyfleshblock"
+    },
+    {
+      "name": "FleshBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tllmobs",
+      "type": "tab",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tllmobs"
+    },
+    {
+      "name": "TllItems",
+      "type": "tab",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tll_items"
+    },
+    {
+      "name": "BloodCell",
+      "type": "mob",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_cell"
+    },
+    {
+      "name": "VeinBush",
+      "type": "plant",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vein_bush"
+    },
+    {
+      "name": "Flesh_Update_Tick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VeinBushDrop",
+      "type": "loottable",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vein_bush_drop"
+    },
+    {
+      "name": "TallVeinBush",
+      "type": "plant",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_vein_bush"
+    },
+    {
+      "name": "BloodCellItem",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_cell_item"
+    },
+    {
+      "name": "BloodUpdateTick",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TallVeinBushAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_vein_bush_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Whitebloodcell",
+      "type": "mob",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whitebloodcell"
+    },
+    {
+      "name": "Whitebloodcellitem",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whitebloodcellitem"
+    },
+    {
+      "name": "Essence",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essence"
+    },
+    {
+      "name": "Toomusicdisk",
+      "type": "musicdisc",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toomusicdisk"
+    },
+    {
+      "name": "Toopainting1",
+      "type": "painting",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toopainting_1"
+    },
+    {
+      "name": "Toopainting2",
+      "type": "painting",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toopainting_2"
+    },
+    {
+      "name": "Brainblockloot",
+      "type": "loottable",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brainblockloot"
+    },
+    {
+      "name": "Brainblockrecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brainblockrecipe"
+    },
+    {
+      "name": "Smallgrass",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smallgrass"
+    },
+    {
+      "name": "Bleedingpotion",
+      "type": "potion",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bleedingpotion"
+    },
+    {
+      "name": "BleedingpotionOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bleedingpotion_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bleedingpotionbrewing",
+      "type": "code",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "bleedingpotionbrewing"
+    },
+    {
+      "name": "Brainylands",
+      "type": "biome",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brainylands"
+    },
+    {
+      "name": "Blodcelltornadoland",
+      "type": "biome",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blodcelltornadoland"
+    },
+    {
+      "name": "Blueflesh",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueflesh"
+    },
+    {
+      "name": "Shootytest",
+      "type": "gun",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shootytest"
+    },
+    {
+      "name": "Peashooterrecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "peashooterrecipe"
+    },
+    {
+      "name": "Screwsmelt",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "screwsmelt"
+    },
+    {
+      "name": "Converttobloodcells",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "converttobloodcells"
+    },
+    {
+      "name": "Goo",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goo"
+    },
+    {
+      "name": "Atrium",
+      "type": "mob",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atrium"
+    },
+    {
+      "name": "Atriumloots",
+      "type": "loottable",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atriumloots"
+    },
+    {
+      "name": "Test",
+      "type": "gui",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decompiler_gui"
+    },
+    {
+      "name": "Decompiler",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decompiler"
+    },
+    {
+      "name": "Decompilerprocess",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decompilerprocess",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bloodparticles",
+      "type": "particle",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodparticles"
+    },
+    {
+      "name": "Decompilerrecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decompilerrecipe"
+    },
+    {
+      "name": "BleedingpotionPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bleedingpotion_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Creativetabeggs",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creativetabeggs"
+    },
+    {
+      "name": "Unlockfleshlangs",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unlockfleshlangs"
+    },
+    {
+      "name": "Bloodyterrible",
+      "type": "achievement",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodyterrible"
+    },
+    {
+      "name": "Bloodpotionicon",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodpotionicon"
+    },
+    {
+      "name": "Bloodalchemist",
+      "type": "achievement",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloodalchemist"
+    },
+    {
+      "name": "Decompilerunlockedadvancment",
+      "type": "achievement",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decompilerunlockedadvancment"
+    },
+    {
+      "name": "Whimstlop",
+      "type": "mob",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whimstlop"
+    },
+    {
+      "name": "Eyeofwhimstlop",
+      "type": "gun",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eyeofwhimstlop"
+    },
+    {
+      "name": "Whomstloploot",
+      "type": "loottable",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whomstloploot"
+    },
+    {
+      "name": "EyeofwhimstlopBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eyeofwhimstlop_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EyeofwhimstlopWhileBulletFlyingTick",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eyeofwhimstlop_while_bullet_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EyeofwhimstlopBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eyeofwhimstlop_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Boneore",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boneore"
+    },
+    {
+      "name": "Boneoreadvancement",
+      "type": "achievement",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boneoreadvancement"
+    },
+    {
+      "name": "BoneoreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boneore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unlockfleshlandsacivementtrigger",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unlockfleshlandsacivementtrigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Atriumsshop",
+      "type": "structure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atriumsshop"
+    },
+    {
+      "name": "Atriumsshoploot",
+      "type": "loottable",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atriumsshoploot"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "handmond_living",
+      "files": [
+        "handmond_idle1",
+        "handmond_idle2",
+        "handmond_idle3"
+      ],
+      "category": "neutral",
+      "subtitle": "Handmond Live"
+    },
+    {
+      "name": "handmond_hurt",
+      "files": [
+        "handmond_damage2",
+        "handmond_damage3"
+      ],
+      "category": "neutral",
+      "subtitle": "Handmond Hurt"
+    },
+    {
+      "name": "handmond_dies",
+      "files": [
+        "handmond_death1",
+        "handmond_death2"
+      ],
+      "category": "neutral",
+      "subtitle": "Handmond Dies"
+    },
+    {
+      "name": "handmond_walks",
+      "files": [
+        "handmond_walk1",
+        "handmond_walk2"
+      ],
+      "category": "neutral",
+      "subtitle": "Handmond Walk"
+    },
+    {
+      "name": "fleshblock_step",
+      "files": [
+        "flesh_block_walk",
+        "flesh_block_walk2",
+        "flesh_block_walk3",
+        "flesh_block_walk4",
+        "flesh_block_walk5"
+      ],
+      "category": "block",
+      "subtitle": "flesh_block_step"
+    },
+    {
+      "name": "maxillaphone_living",
+      "files": [
+        "maxilla_idle",
+        "maxilla_idle2",
+        "maxilla_idle3",
+        "maxilla_idle4",
+        "maxilla_idle5",
+        "maxilla_idle6",
+        "maxilla_idle7",
+        "maxilla_idle8"
+      ],
+      "category": "neutral",
+      "subtitle": "Maxilla Live"
+    },
+    {
+      "name": "maxillaphone_dies",
+      "files": [
+        "maxilla_dead",
+        "maxilla_dead2",
+        "maxilla_dead3"
+      ],
+      "category": "neutral",
+      "subtitle": "Maxilla Dies"
+    },
+    {
+      "name": "maxillaphone_hurt",
+      "files": [
+        "maxilla_hurt",
+        "maxilla_hurt2",
+        "maxilla_hurt3",
+        "maxilla_hurt4",
+        "maxilla_hurt5",
+        "maxilla_hurt6"
+      ],
+      "category": "neutral",
+      "subtitle": "Maxilla Hurt"
+    },
+    {
+      "name": "portal_fleshy",
+      "files": [
+        "portal_ambience"
+      ],
+      "category": "ambient",
+      "subtitle": "Fleshy screams"
+    },
+    {
+      "name": "too_music",
+      "files": [
+        "airship_too"
+      ],
+      "category": "music",
+      "subtitle": "Terra Of Organs music"
+    },
+    {
+      "name": "whimstlop_idle",
+      "files": [
+        "whimstlop_idle",
+        "whimstlop_idle2",
+        "whimstlop_idle3",
+        "whimstlop_idle4",
+        "whimstlop_idle5",
+        "whimstlop_idle6",
+        "whimstlop_idle7",
+        "whimstlop_idle8",
+        "whimstlop_idle9"
+      ],
+      "category": "master",
+      "subtitle": "Whimstlop sounds"
+    },
+    {
+      "name": "whimstlop_hurt",
+      "files": [
+        "whimstlop_hurt",
+        "whimstlop_hurt2",
+        "whimstlop_hurt3",
+        "whimstlop_hurt4",
+        "whimstlop_hurt5",
+        "whimstlop_hurt6",
+        "whimstlop_hurt7",
+        "whimstlop_hurt8",
+        "whimstlop_hurt9"
+      ],
+      "category": "master",
+      "subtitle": "Whimstlop wheeze"
+    },
+    {
+      "name": "whimstlop_death",
+      "files": [
+        "whimstlop_death",
+        "whimstlop_death2",
+        "whimstlop_death3",
+        "whimstlop_death4"
+      ],
+      "category": "master",
+      "subtitle": "Whimstlop dies"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.maxillaphone_dies": "Maxilla Dies",
+      "block.tll_but_in_blocks.decompiler": "Decompiler",
+      "itemGroup.tabtll_items": "Tll Items",
+      "item.tll_but_in_blocks.bloodpotionicon": "Bloodpotionicon",
+      "block.tll_but_in_blocks.brainblock": "Brain block",
+      "block.tll_but_in_blocks.brainvine": "Brain vine",
+      "subtitles.fleshblock_step": "flesh_block_step",
+      "subtitles.portal_fleshy": "Fleshy screams",
+      "item.tll_but_in_blocks.eyeofwhimstlop": "Whimstlop\u0027s eye",
+      "advancements.boneoreadvancement.descr": "Mine Bone ore",
+      "block.tll_but_in_blocks.flesh_block": "Flesh Block",
+      "item.tll_but_in_blocks.whimstlop_spawn_egg": "Whimstlop Spawn Egg",
+      "item.tll_but_in_blocks.toomusicdisk.desc": "Raw Zebra - Terra of Organs",
+      "fluid.blood": "Blood",
+      "entity.tll_but_in_blocks.atrium": "Atrium",
+      "advancements.boneoreadvancement.title": "Bore calcium",
+      "advancements.unlockfleshlangs.title": "Flesh...my favorite.",
+      "itemGroup.tabtllmobs": "TLL MOBS",
+      "block.tll_but_in_blocks.flesh_block_2": "Flesh Block",
+      "subtitles.handmond_hurt": "Handmond Hurt",
+      "subtitles.handmond_walks": "Handmond Walk",
+      "advancements.bloodalchemist.title": "This is fine",
+      "item.tll_but_in_blocks.toomusicdisk": "Music Disk",
+      "subtitles.maxillaphone_hurt": "Maxilla Hurt",
+      "item.tll_but_in_blocks.bakedbrainworm": "Baked brain worm",
+      "subtitles.handmond.sound.handmondstep": "Handmond Walk",
+      "subtitles.maxillaphone_living": "Maxilla Live",
+      "entity.tll_but_in_blocks.maxillaphone": "Maxillaphone",
+      "subtitles.whimstlop_idle": "Whimstlop sounds",
+      "item.tll_but_in_blocks.bakedbrains": "Baked brains",
+      "block.tll_but_in_blocks.brainworm": "Brain worm piece",
+      "item.tll_but_in_blocks.organic_dimension": "Organon anapton",
+      "item.tll_but_in_blocks.creativetabeggs": "Creativetabeggs",
+      "advancements.bloodyterrible.descr": "Collect blood clot",
+      "item.tll_but_in_blocks.blood_cell_spawn_egg": "Red Blood Cell Spawn Egg",
+      "block.tll_but_in_blocks.tall_vein_bush": "Tall Vein Bush",
+      "item.minecraft.tipped_arrow.effect.bleedingpotion": "Arrow of Bleeding potion",
+      "advancements.decompilerunlockedadvancment.descr": "Place a decompiler",
+      "biome.tll_but_in_blocks.blodcelltornadoland": "Blodcelltornadoland",
+      "subtitles.handmond_dies": "Handmond Dies",
+      "subtitles.handmond_living": "Handmond Live",
+      "entity.tll_but_in_blocks.blood_cell": "Red Blood Cell",
+      "item.tll_but_in_blocks.whitebloodcellitem": "White blood cell",
+      "entity.tll_but_in_blocks.whitebloodcell": "White Blood Cell",
+      "biome.tll_but_in_blocks.brainylands": "Brainylands",
+      "block.tll_but_in_blocks.boneore": "Boneore",
+      "subtitles.handmond.sound.handmondliving": "Handmond Live",
+      "item.minecraft.potion.effect.bleedingpotion": "Bleeding potion",
+      "subtitles.too_music": "Terra Of Organs music",
+      "item.tll_but_in_blocks.hematogen": "Hematogen",
+      "subtitles.whimstlop_death": "Whimstlop dies",
+      "item.tll_but_in_blocks.organicessence": "Organic Essence",
+      "subtitles.handmond.sound.handmonddeath": "Handmond Dies",
+      "entity.tll_but_in_blocks.whimstlop": "Whimstlop",
+      "item.tll_but_in_blocks.rawbrainworm": "Raw brain worm",
+      "subtitles.handmond.sound.handmondhurt": "Handmond Hurt",
+      "item.tll_but_in_blocks.blood_cell_item": "Red blood cell",
+      "advancements.bloodalchemist.descr": "Drink a bleeding potion",
+      "subtitles.maxilla_dies": "Maxilla Dies",
+      "block.tll_but_in_blocks.vein_bush": "Vein Bush",
+      "item.minecraft.lingering_potion.effect.bleedingpotion": "Lingering Bleeding potion",
+      "item.tll_but_in_blocks.shootytest": "White blood cell pea shooter",
+      "itemGroup.tabtll": "TLL BLOCKS",
+      "block.tll_but_in_blocks.tooframeblock": "Lip Piece",
+      "subtitles.handmond_step": "Handmond Walk",
+      "item.tll_but_in_blocks.bakedflesh": "Baked flesh",
+      "advancements.unlockfleshlangs.descr": "Unlock flesh lands",
+      "item.tll_but_in_blocks.bloodclot": "Blood clot",
+      "item.tll_but_in_blocks.whitebloodcell_spawn_egg": "White Blood Cell Spawn Egg",
+      "item.tll_but_in_blocks.atrium_spawn_egg": "Atrium Spawn Egg",
+      "advancements.decompilerunlockedadvancment.title": "Decompile it all",
+      "effect.bleedingpotion": "Bleeding",
+      "item.tll_but_in_blocks.handmond_spawn_egg": "Handmond Spawn Egg",
+      "biome.tll_but_in_blocks.flesh_islands": "Flesh Islands",
+      "advancements.bloodyterrible.title": "Bloody terrible",
+      "block.tll_but_in_blocks.blueflesh": "Blue flesh block",
+      "subtitles.whimstlop_hurt": "Whimstlop wheeze",
+      "subtitles.maxilla_hurt": "Maxilla Hurt",
+      "block.tll_but_in_blocks.screw": "Screw",
+      "block.tll_but_in_blocks.bloodyfleshblock": "Bloody flesh block",
+      "item.minecraft.splash_potion.effect.bleedingpotion": "Splash Bleeding potion",
+      "entity.tll_but_in_blocks.handmond": "Handmond",
+      "item.tll_but_in_blocks.blood_bucket": "Blood Bucket",
+      "subtitles.maxilla_living": "Maxilla  Live",
+      "item.tll_but_in_blocks.maxillaphone_spawn_egg": "Maxillaphone Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "tll_but_in_blocks",
+    "modName": "tll_but_in_blocks",
+    "version": "1.0.0",
+    "author": "rhuan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.tllbutinblocks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

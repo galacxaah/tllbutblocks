@@ -1,0 +1,19 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tll_but_in_blocks:brainvine"
+    },
+    {
+      "item": "tll_but_in_blocks:organicessence"
+    },
+    {
+      "item": "tll_but_in_blocks:vein_bush"
+    }
+  ],
+  "result": {
+    "item": "tll_but_in_blocks:brainblock",
+    "count": 1
+  }
+}

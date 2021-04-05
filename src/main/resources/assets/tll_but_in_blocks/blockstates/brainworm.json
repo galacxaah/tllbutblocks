@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "tll_but_in_blocks:block/brainworm"
+    },
+    "facing=north": {
+      "model": "tll_but_in_blocks:block/brainworm"
+    },
+    "facing=east": {
+      "model": "tll_but_in_blocks:block/brainworm",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "tll_but_in_blocks:block/brainworm",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "tll_but_in_blocks:block/brainworm",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "tll_but_in_blocks:block/brainworm",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

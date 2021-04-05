@@ -1,0 +1,12 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "tll_but_in_blocks:blood_cell_item"
+  },
+  "result": {
+    "item": "tll_but_in_blocks:bloodclot"
+  }
+}

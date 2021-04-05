@@ -1,0 +1,19 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tll_but_in_blocks:brainworm"
+    },
+    {
+      "item": "tll_but_in_blocks:brainworm"
+    },
+    {
+      "item": "tll_but_in_blocks:brainworm"
+    }
+  ],
+  "result": {
+    "item": "tll_but_in_blocks:rawbrainworm",
+    "count": 1
+  }
+}

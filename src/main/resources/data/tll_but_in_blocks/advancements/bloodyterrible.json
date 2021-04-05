@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "tll_but_in_blocks:bloodclot"
+    },
+    "title": {
+      "translate": "advancements.bloodyterrible.title"
+    },
+    "description": {
+      "translate": "advancements.bloodyterrible.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bloodyterrible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tll_but_in_blocks:bloodclot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "tll_but_in_blocks:bloodalchemist"
+}

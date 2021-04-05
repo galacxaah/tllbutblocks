@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "tll_but_in_blocks:decompiler"
+    },
+    "title": {
+      "translate": "advancements.decompilerunlockedadvancment.title"
+    },
+    "description": {
+      "translate": "advancements.decompilerunlockedadvancment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "decompilerunlockedadvancment": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "tll_but_in_blocks:decompiler"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 8
+  },
+  "parent": "tll_but_in_blocks:unlockfleshlangs"
+}

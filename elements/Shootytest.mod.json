@@ -1,0 +1,37 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "peashooter",
+    "customModelName": "Normal",
+    "name": "White blood cell pea shooter",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TllItems"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Whitebloodcellitem"
+    },
+    "shootConstantly": true,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Whitebloodcellitem"
+    },
+    "bulletModel": "ModelWhiteBloodCell",
+    "customBulletModelTexture": "white_blood_cell_texture.png"
+  }
+}

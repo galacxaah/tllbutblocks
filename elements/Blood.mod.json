@@ -1,0 +1,37 @@
+{
+  "_fv": 13,
+  "_type": "fluid",
+  "definition": {
+    "name": "Blood",
+    "textureStill": "blood_flow",
+    "textureFlowing": "blood_flow",
+    "luminosity": 0,
+    "density": 11,
+    "viscosity": 11,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:TllItems"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "CUSTOM:OrganicDimension",
+      "Nether"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:FleshIslands"
+      },
+      {
+        "value": "CUSTOM:Blodcelltornadoland"
+      }
+    ],
+    "onBlockAdded": {
+      "name": "BloodUpdateTick"
+    },
+    "onTickUpdate": {
+      "name": "BloodUpdateTick"
+    }
+  }
+}

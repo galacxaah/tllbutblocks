@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "tll_but_in_blocks:bloodpotionicon"
+    },
+    "title": {
+      "translate": "advancements.bloodalchemist.title"
+    },
+    "description": {
+      "translate": "advancements.bloodalchemist.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bloodalchemist": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "tll_but_in_blocks:unlockfleshlangs"
+}

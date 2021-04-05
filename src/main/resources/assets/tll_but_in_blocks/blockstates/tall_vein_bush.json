@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "tll_but_in_blocks:block/tall_vein_bush"
+    },
+    "half=lower": {
+      "model": "tll_but_in_blocks:block/tall_vein_bush_bottom"
+    }
+  }
+}

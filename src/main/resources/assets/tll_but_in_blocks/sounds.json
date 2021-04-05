@@ -1,0 +1,300 @@
+{
+  "handmond_living": {
+    "category": "neutral",
+    "subtitle": "subtitles.handmond_living",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:handmond_idle1",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:handmond_idle2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:handmond_idle3",
+        "stream": false
+      }
+    ]
+  },
+  "handmond_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.handmond_hurt",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:handmond_damage2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:handmond_damage3",
+        "stream": false
+      }
+    ]
+  },
+  "handmond_dies": {
+    "category": "neutral",
+    "subtitle": "subtitles.handmond_dies",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:handmond_death1",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:handmond_death2",
+        "stream": false
+      }
+    ]
+  },
+  "handmond_walks": {
+    "category": "neutral",
+    "subtitle": "subtitles.handmond_walks",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:handmond_walk1",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:handmond_walk2",
+        "stream": false
+      }
+    ]
+  },
+  "fleshblock_step": {
+    "category": "block",
+    "subtitle": "subtitles.fleshblock_step",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:flesh_block_walk",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:flesh_block_walk2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:flesh_block_walk3",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:flesh_block_walk4",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:flesh_block_walk5",
+        "stream": false
+      }
+    ]
+  },
+  "maxillaphone_living": {
+    "category": "neutral",
+    "subtitle": "subtitles.maxillaphone_living",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:maxilla_idle",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_idle2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_idle3",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_idle4",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_idle5",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_idle6",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_idle7",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_idle8",
+        "stream": false
+      }
+    ]
+  },
+  "maxillaphone_dies": {
+    "category": "neutral",
+    "subtitle": "subtitles.maxillaphone_dies",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:maxilla_dead",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_dead2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_dead3",
+        "stream": false
+      }
+    ]
+  },
+  "maxillaphone_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.maxillaphone_hurt",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:maxilla_hurt",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_hurt2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_hurt3",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_hurt4",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_hurt5",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:maxilla_hurt6",
+        "stream": false
+      }
+    ]
+  },
+  "portal_fleshy": {
+    "category": "ambient",
+    "subtitle": "subtitles.portal_fleshy",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:portal_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "too_music": {
+    "category": "music",
+    "subtitle": "subtitles.too_music",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:airship_too",
+        "stream": true
+      }
+    ]
+  },
+  "whimstlop_idle": {
+    "category": "master",
+    "subtitle": "subtitles.whimstlop_idle",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle3",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle4",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle5",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle6",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle7",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle8",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_idle9",
+        "stream": false
+      }
+    ]
+  },
+  "whimstlop_hurt": {
+    "category": "master",
+    "subtitle": "subtitles.whimstlop_hurt",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt3",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt4",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt5",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt6",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt7",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt8",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_hurt9",
+        "stream": false
+      }
+    ]
+  },
+  "whimstlop_death": {
+    "category": "master",
+    "subtitle": "subtitles.whimstlop_death",
+    "sounds": [
+      {
+        "name": "tll_but_in_blocks:whimstlop_death",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_death2",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_death3",
+        "stream": false
+      },
+      {
+        "name": "tll_but_in_blocks:whimstlop_death4",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "whimstlopeye",
+    "customModelName": "Normal",
+    "name": "Whimstlop's eye",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TllItems"
+    },
+    "stackSize": 8,
+    "ammoItem": {
+      "value": "CUSTOM:Eyeofwhimstlop"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:whimstlop_hurt"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Eyeofwhimstlop"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "EyeofwhimstlopBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "EyeofwhimstlopBulletHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "EyeofwhimstlopBulletHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "EyeofwhimstlopWhileBulletFlyingTick"
+    }
+  }
+}

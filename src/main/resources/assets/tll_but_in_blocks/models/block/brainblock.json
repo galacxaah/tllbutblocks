@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tll_but_in_blocks:blocks/too_tree_brains",
+    "particle": "tll_but_in_blocks:blocks/too_tree_brains"
+  }
+}

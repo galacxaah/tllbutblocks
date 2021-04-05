@@ -1,0 +1,28 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tll_but_in_blocks:whitebloodcellitem"
+    },
+    {
+      "item": "tll_but_in_blocks:whitebloodcellitem"
+    },
+    {
+      "item": "tll_but_in_blocks:blood_cell_item"
+    },
+    {
+      "item": "tll_but_in_blocks:whitebloodcellitem"
+    },
+    {
+      "item": "tll_but_in_blocks:whitebloodcellitem"
+    },
+    {
+      "item": "tll_but_in_blocks:whitebloodcellitem"
+    }
+  ],
+  "result": {
+    "item": "tll_but_in_blocks:organicessence",
+    "count": 1
+  }
+}

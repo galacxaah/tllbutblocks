@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tll_but_in_blocks:blocks/vein_bush",
+    "particle": "tll_but_in_blocks:blocks/vein_bush"
+  }
+}

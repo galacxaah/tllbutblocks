@@ -1,0 +1,53 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:Tooframeblock"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0.13,
+    "portalSound": {
+      "value": "CUSTOM:portal_fleshy"
+    },
+    "igniterName": "Organon anapton",
+    "igniterTab": {
+      "value": "CUSTOM:TllItems"
+    },
+    "texture": "too_igniter",
+    "portalTexture": "blood_flow",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:FleshIslands"
+      },
+      {
+        "value": "CUSTOM:Brainylands"
+      },
+      {
+        "value": "CUSTOM:Blodcelltornadoland"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:FleshBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Blood"
+    },
+    "airColor": {
+      "value": -10935179,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

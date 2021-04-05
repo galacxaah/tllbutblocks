@@ -1,0 +1,12 @@
+{
+  "group": "tll_but_in_blocks",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 500,
+  "ingredient": {
+    "item": "tll_but_in_blocks:rawbrainworm"
+  },
+  "result": {
+    "item": "tll_but_in_blocks:bakedbrainworm"
+  }
+}

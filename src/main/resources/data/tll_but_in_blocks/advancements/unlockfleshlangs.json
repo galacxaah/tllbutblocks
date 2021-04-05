@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "tll_but_in_blocks:textures/bleeding_icon.png",
+    "icon": {
+      "item": "tll_but_in_blocks:bloodyfleshblock"
+    },
+    "title": {
+      "translate": "advancements.unlockfleshlangs.title"
+    },
+    "description": {
+      "translate": "advancements.unlockfleshlangs.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "unlockfleshlangs": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "tll_but_in_blocks:decompilerrecipe"
+    ]
+  }
+}
