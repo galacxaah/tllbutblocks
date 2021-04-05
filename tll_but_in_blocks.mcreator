@@ -1099,6 +1099,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "atriumsshoploot"
+    },
+    {
+      "name": "Aaa",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aaa"
     }
   ],
   "variable_elements": [],
@@ -1253,12 +1262,12 @@
   "language_map": {
     "en_us": {
       "subtitles.maxillaphone_dies": "Maxilla Dies",
-      "block.tll_but_in_blocks.decompiler": "Decompiler",
-      "itemGroup.tabtll_items": "Tll Items",
       "item.tll_but_in_blocks.bloodpotionicon": "Bloodpotionicon",
+      "itemGroup.tabtll_items": "Tll Items",
+      "block.tll_but_in_blocks.decompiler": "Decompiler",
       "block.tll_but_in_blocks.brainblock": "Brain block",
-      "block.tll_but_in_blocks.brainvine": "Brain vine",
       "subtitles.fleshblock_step": "flesh_block_step",
+      "block.tll_but_in_blocks.brainvine": "Brain vine",
       "subtitles.portal_fleshy": "Fleshy screams",
       "item.tll_but_in_blocks.eyeofwhimstlop": "Whimstlop\u0027s eye",
       "advancements.boneoreadvancement.descr": "Mine Bone ore",
@@ -1327,6 +1336,7 @@
       "item.tll_but_in_blocks.handmond_spawn_egg": "Handmond Spawn Egg",
       "biome.tll_but_in_blocks.flesh_islands": "Flesh Islands",
       "advancements.bloodyterrible.title": "Bloody terrible",
+      "block.tll_but_in_blocks.aaa": "Aaa",
       "block.tll_but_in_blocks.blueflesh": "Blue flesh block",
       "subtitles.whimstlop_hurt": "Whimstlop wheeze",
       "subtitles.maxilla_hurt": "Maxilla Hurt",
